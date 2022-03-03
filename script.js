@@ -13,7 +13,7 @@ let Password = Nome + Cognome + ColorePref + '21';
 
 console.log(Password);
 
-document.getElementById('Pswd').innerText = "La tua nuova Password è" + ' ' + Password;
+document.getElementById('Pswd').innerHTML = "La tua nuova Password è" + ' ' + '<strong>' + Password + '</strong>';
 
 
 
